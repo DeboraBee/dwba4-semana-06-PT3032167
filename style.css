@@ -114,9 +114,8 @@ footer {
 }
 
 .dropdown > a {
-  background-color: red;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   display: block;
   text-decoration: none;
 }
