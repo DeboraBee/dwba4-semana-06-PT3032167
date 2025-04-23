@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+}
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover, .menu li a.active {
+  background-color: red;
+}
+
+.logo-container {
+  background-color: #008000;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo-container img {
+  height: 80px;
+}
+
+main {
+  text-align: center;
+  padding: 30px;
+}
+
+.evento img {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 30px;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
