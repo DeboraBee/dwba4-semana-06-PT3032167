@@ -28,86 +28,29 @@
     </nav>
   </header>
 
- <div class="container">
-  <h2>Inscreva-se</h2>
+ <form>
+  <label for="email">E-mail</label>
+  <input type="email" id="email" name="email" required>
 
-  <form>
-    <div>
-      <label for="evento">Evento</label><br>
-      <select id="evento">
-        <option>-- Selecione --</option>
-        <option>Palestra 1</option>
-        <option>Workshop 2</option>
-      </select>
-    </div>
+  <label for="celular">Celular (99) 99999-9999</label>
+  <input type="tel" id="celular" name="celular" placeholder="(99) 99999-9999">
 
-    <fieldset>
-      <legend>Informações de Acesso</legend>
+  <label>Sexo</label>
+  <label><input type="radio" name="sexo" value="masculino"> Masculino</label>
+  <label><input type="radio" name="sexo" value="feminino"> Feminino</label>
 
-      <div>
-        <label for="usuario">Usuário</label><br>
-        <input type="text" id="usuario">
-      </div>
+  <label for="nascimento">Data de Nascimento</label>
+  <input type="date" id="nascimento" name="nascimento">
 
-      <div>
-        <label for="senha">Senha</label><br>
-        <input type="password" id="senha">
-      </div>
+  <label for="cor">Cor Favorita</label>
+  <input type="color" id="cor" name="cor">
 
-      <div>
-        <label for="confirmar">Confirme a Senha</label><br>
-        <input type="password" id="confirmar">
-      </div>
-    </fieldset>
+  <label for="github">Perfil no Github</label>
+  <input type="url" id="github" name="github" placeholder="https://github.com/seuusuario">
 
-    <fieldset>
-      <legend>Informações Pessoais</legend>
-
-      <div>
-        <label for="nome">Nome Completo</label><br>
-        <input type="text" id="nome">
-      </div>
-
-      <div>
-        <label for="email">E-mail</label><br>
-        <input type="email" id="email">
-      </div>
-
-      <div>
-        <label for="celular">Celular</label><br>
-        <input type="tel" id="celular" placeholder="(99) 99999-9999">
-      </div>
-
-      <div>
-        <label>Sexo</label><br>
-        <input type="radio" name="sexo" value="M"> Masculino
-        <input type="radio" name="sexo" value="F"> Feminino
-      </div>
-
-      <div>
-        <label for="data">Data de Nascimento</label><br>
-        <input type="date" id="data">
-      </div>
-
-      <div>
-        <label for="cor">Cor Favorita</label><br>
-        <input type="color" id="cor">
-      </div>
-
-      <div>
-        <label for="github">Perfil no Github</label><br>
-        <input type="url" id="github">
-      </div>
-    </fieldset>
-
-    <div>
-      <input class="botao" type="submit" value="Inscrever-se">
-    </div>
-    <div>
-      <input class="botao" type="reset" value="Limpar">
-    </div>
-  </form>
-</div>
+  <input type="submit" value="Inscrever-se" class="botao">
+  <input type="reset" value="Limpar" class="botao">
+</form>
 
   <footer>
     <a href="https://www.facebook.com/ifsppirituba" target="_blank">
